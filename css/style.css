@@ -13,40 +13,37 @@ h1, h2, h3, h4, h5, h6{
 a, a:hover{
 	text-decoration: none;
 }
-/*code start Here*/
-
+/*code start here*/
 .header{
 	width: 100%;
-	background:#F0FFF0;
+	background: #F0FFF0;
 }
 .header .navbar-nav .nav-item .nav-link{
-	font-size: 14px;
-	line-height: 24px;
-	color:#000000;
-    margin: 0px 15px 0px 15px;
+	font-size: 16px
+	font-weight: 400;
+	color: #000;
+	margin: 0px 15px 0px 15px;
 }
 .header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus{
 	color: #21B573;
 }
 .header .navbar-nav .nav-item .btn-success{
-	padding: 10px 25px;
-    border-radius: 35px;
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
-    background: #21B573;
-    border: 1px solid #21B573;
-    transition: 1s;
-}    
+	font-size: 14px;
+	font-weight:400;
+	color: #fff;
+	background:#21B573; 
+	border: 1px solid #21B573;
+	padding: 10px 20px;
+	border-radius: 33px;
+	transition: 1s;
+}
 .header .navbar-nav .nav-item .btn-success:hover, .header .navbar-nav .nav-item .btn-success:focus{
 	color: #21B573;
-	background: #fff;
-    border: 1px solid #21B573;
-    
+	background:#fff; 
+	border: 1px solid #21B573;
 }
 
-/*banner section code start*/
-
+/*banner code start here*/
 .banner{
 	width: 100%;
 	padding: 40px 0px;
@@ -54,126 +51,125 @@ a, a:hover{
 .inner-banner{
 	width: 100%;
 	padding: 40px 0px;
-
-
 }
 .inner-banner h6{
 	font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    color: #FD511A;
-
+	line-height: 26px;
+	font-weight: 400;
+	color:#FD511A;
 }
-.inner-banner h1{
+.inner-banner h2{
 	font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
-    color: #000;
-    
-
+	line-height: 58px;
+	font-weight: 700;
+	color:#000;
 }
-.inner-banner h1 span{
-	color: #21B573;
-
+.inner-banner h2 span{
+color: #21B573;
 }
 .inner-banner p{
 	font-size: 16px;
-	font-weight: 400;
 	line-height: 26px;
-	color: #6C6B6B;
+	font-weight: 400;
+	color:#6C6B6B;
 	margin: 25px 0px;
-
 }
-
 .inner-banner .btn-success{
-	padding: 15px 35px;
-    border-radius: 35px;
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
-    background: #21B573;
-    border: 1px solid #000;
-    transition: 1s;
-
-
+	font-size: 16px;
+	font-weight:400;
+	color: #fff;
+	background:#21B573; 
+	border: 1px solid #000;
+	padding: 12px 29px;
+	border-radius: 35px;
+	transition: 1s;
 }
 .inner-banner .btn-success:hover, .inner-banner .btn-success:focus{
 	color: #21B573;
-	background: #fff;
-    border: 1px solid #21B573;
-
+	background:#fff; 
+	border: 1px solid #21B573;
 }
-/*feature code start*/
-
 .feature{
 	width: 100%;
 	padding: 80px 0px;
 }
 .feature .inner-feature{
 	width: 100%;
-	padding: 40Px 0px;
+	padding: 40px 0px;
 	text-align: center;
-	background:#F8FFFB;
+	background-color: #F1FFF8;
 	border-radius: 10px;
 }
+.feature .inner-feature:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, .10);
+    cursor: pointer;
+}
 .feature .inner-feature img{
-	width: 85px;
-	height: 90px;
+	width: 80px;
+	height: 85px;
 }
 .feature .inner-feature h4{
 	font-size: 22px;
 	line-height: 32px;
-    font-weight: 400;
-    color:#413960;
-    margin: 20px 0px 0px;
-
-
+	font-weight: 400;
+	color:#000;
+	margin: 20px 0px 0px;
 }
 .feature .inner-feature p{
 	font-size: 14px;
 	line-height: 24px;
-    font-weight: 400;
-    color:#585859;
-    margin: 0px 0px 0px;
-
+	font-weight: 400;
+	color:#585859;
+	margin: 0px 0px 0px;
 }
 .feature .inner-feature:hover{
-	background: #FFFFFF;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
-   /* border-radius: 10px;*/
+	background: #fff;
+	box-shadow: 0px 20ox 40px rgba(0, 0, 0, 0.1);
 }
-
-/*online course start*/
+/*online-course code start*/
 .online-course{
 	width: 100%;
-	padding: 10px 0px 80px;
+	padding: 80px 0px;
 }
 .online-course h1{
 	font-size: 48px;
-	left: 48px;
 	font-weight: 700;
-	text-align: center;
+	line-height: 58px;
 	color: #413960;
-	margin: 0px 0px 80px ;
+	text-align: center;
+	margin: 0px 0px 40px;
 }
-.online-course .date img{
-	width: 18px;
+.online-course .cl1 img{
+	width: 16px;
 	margin: 0px 5px 0px 0px;
 }
-.online-course .seat img{
-	width: 18px;
+.online-course .people img{
+	width: 16px;
 	margin: 0px 5px 0px 0px;
 
+}
+.online-course .card .cl1{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	margin: 25px 0px 0px; 
+}
+.online-course .card .people{
+	font-size: 14px;
+	color: #000;
+	margin: 25px 0px 0px; 
+	text-align: right;
 }
 .online-course .card{
 	width: 100%;
 	border: 0px;
 	padding: 25px;
-	background: #FFFFFF;
-    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);;
+	background: #fff;
+	box-shadow: 0px 20ox 40px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 }
-.online-course .card .card-img-top{
+.online-course .card-img-top{
 	width: 100%;
 	border-radius: 10px;
 }
@@ -182,139 +178,115 @@ a, a:hover{
 }
 .online-course .card .card-body .card-title{
 	font-size: 18px;
-	line-height: 28px;
 	font-weight: 500;
+	line-height: 28px;
 	color: #413960;
 	margin: 10px 0px 5px;
-
 }
 .online-course .card .card-body .card-text{
 	font-size: 14px;
-	line-height: 24px;
 	font-weight: 400;
-	color:#585859;
+	line-height: 24px;
+	color: #585859;
 	margin: 0px 0px 15px;
-
 }
 .online-course .card .card-body .btn-success{
+	font-size: 14px;
+	font-weight:400;
+	color: #fff;
+	background:#21B573; 
+	border: 1px solid #21B573;
 	padding: 8px 20px;
-    border-radius: 35px;
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
-    background: #21B573;
-    border: 1px solid #21B573;
-    transition: 1s;
-}  
-.online-course .card .card-body .btn-success:hover, .online-course .card .card-body .btn-success:focus{
+	border-radius: 33px;
+	transition: 1s;
+}
+.online-course .card .card-body .btn-success:hover,.online-course .card .card-body .btn-success:focus{
 	color: #21B573;
-	background: #fff;
-    border: 1px solid #21B573;
+	background:#fff; 
+	border: 1px solid #21B573;
 }
-.online-course .card .date{
-	font-size: 14px;
-	list-style: 24px;
-	font-weight: 400;
-	color: #000;
-	margin:25px 0px 0px;
-}
-.online-course .card .seat{
-	font-size: 14px;
-	list-style: 24px;
-	font-weight: 400;
-	color: #000;
-	margin:25px 0px 0px;
-	text-align: right;
-
-}
-
 /*testmonial code start*/
-.testimonial{
+..online-testmonial{
 	width: 100%;
 	padding: 80px 0px;
 }
-.testimonial h1{
+.online-testmonial h1{
 	font-size: 48px;
-	left: 48px;
 	font-weight: 700;
-	text-align: center;
+	line-height: 58px;
 	color: #413960;
-	margin: 0px 0px 80px ;
+	text-align: center;
+	margin: 0px 0px 30px;
 }
-.testimonial .img-fluid{
-	width: 95px;
-	height: 95px;
-	border-radius: 100%;
+.online-testmonial .img-fluid{
+	width: 120px;
+	float: right;
+	margin: 45px 0px;
+	
 }
-.testimonial p{
-	font-size: 16px;
-	line-height: 26px;
-	color: #000;
+.online-testmonial .test-text p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0px 20px 0px;
+    padding: 80px 0px;
 }
+/*header code start*/
 .footer{
 	width: 100%;
-	padding: 80px 0px 30px;
+	padding: 50px 0px 20px;
 	background: #282531;
 }
-.inner-text{
-	padding: 0px 40px 0px 0px; 
-	font-size: 14px;
-	line-height: 24px;
-	font-weight: 400;
-	color: #fff;
-}
-.footer h4{
-	font-size: 14px;
-	line-height: 24px;
-	font-weight: 700;
-	margin: 0px;
-	color: #fff;
-}
-.footer .widget{
-	display: block;
-	padding: 0px;
-}
-.footer .widget li{
-	list-style: none;
-	display: block;
-}
-.footer .widget li a{
+.footer p{
 	font-size: 16px;
 	line-height: 26px;
 	font-weight: 400;
-	color: #fff;
+	color: #FFFFFF;
+	margin: 11px 0px 0px;
+
 }
-.footer .widget li a:hover, .footer .widget li a:focus{
+.footer .list span{
+	font-size: 18px;
+	line-height: 30px;
 	font-weight: 700;
+	color: #FFFFFF;
+}
+.footer .list{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+.footer .list li{
+	margin: 5px 0px 0px;
+	list-style: none;
+}.footer .list{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 300;
+	color: #FFFFFF;
 	transition: 1s;
 }
-.footer .copyright{
-	padding: 80px 0px 0px;
-	font-size: 16px;
-	line-height: 26px;
-	color: #fff;
+.footer .list li span:hover{
+	color: #fff
+	background:transparent;
+}
+.footer .copyright p{
+	margin: 10px 0px 0px;
 	text-align: center;
 }
 
-/*Responsive css start here*/
 
-@media (min-width: 279px) and (max-width: 319px){
-	.inner-banner h6{
-	
-	}
-}
-@media (min-width: 320px) and (max-width: 480px){
-	.inner-banner h1{
-		
-	}
-}
-@media (min-width: 481px) and (max-width: 767px){
-	.inner-banner h1{
-		
-	}
-}
-@media (min-width: 768px) and (max-width: 1024px){
-	.inner-banner h1{
-		
-	}
+/*media code start*/
+
+
+
+
+
+
+
+@media (max-width: 767px) and (min-width: 481px)
+.feature .inner-future {
+    margin: 10px 0px;
 }
